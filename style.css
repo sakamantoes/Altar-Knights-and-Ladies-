@@ -2,12 +2,11 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: url("Altar.jpg");
 }
 
 .intro,.container{
   height: 500px;
-  margin: 50px 5px;
+  margin: 100px 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
