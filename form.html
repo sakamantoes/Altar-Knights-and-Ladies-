@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+   <link rel="stylesheet" href="style.css">
+  <title>Form</title>
+</head>
+<body>
+  <div class="container">
+    <a class="link" href="index.html">BACK</a>
+    <h1>STUDENT INFORMATION</h1>
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+      <input type="hidden" name="access_key" value="df28b38d-da39-460c-a5a2-963594f61029">
+<!-- Default URL -->
+<input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+        <label>NAME</label>
+      <input type="text" name="Name" placeholder="Your name.." required>
+    
+      <label>DEPARTMENT</label>
+          <input type="text" name="Department" placeholder="Your department.." required>
+      
+      <label>LEVEL</label>
+      <select name="level">
+        <option value="100 level">100 level</option>
+        <option value="200 level">200 level</option>
+        <option value="300 level">300 level</option>
+        <option value="400 level">400 level</option>
+        <option value="500 level">500 level</option>
+      </select>
+      
+      <label>PIOUS GROUP</label>
+        <input type="text" name="Group" placeholder="Pious group.." required>
+      
+      <label>POST OF OFFICE</label>
+      <textarea placeholder="Write down all post both past and present ..." name="Post" required></textarea>
+      
+      <button class="btn" type="submit"> send </button>
+    </form>
+    
+    
+  <p>Powered by LeoTech and plug-sTechnology.</p>
+  </div>
+</body>
+</html>
