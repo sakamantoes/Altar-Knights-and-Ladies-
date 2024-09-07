@@ -18,18 +18,20 @@ body{
   margin: 3px;
   text-transform: uppercase;
   font-weight: bolder;
-  font-size: 5px;
+  font-size: 10px;
 }
 
 
 .intro h2{
   margin-top: 20px;
   margin-bottom: 3px;
+  font-size:6px;
 }
 
 .intro p{
   font-weight: bolder;
   color: gray;
+  font-size: 5px;
 }
 
 .intro button{
@@ -51,7 +53,7 @@ form{
   line-height: 20px;
 }
 
-form h1{
+.container h1{
   margin: 3px;
   text-transform: uppercase;
   font-weight: bolder;
