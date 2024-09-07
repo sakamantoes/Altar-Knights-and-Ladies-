@@ -25,7 +25,7 @@ body{
 .intro h2{
   margin-top: 20px;
   margin-bottom: 3px;
-  font-size:6px;
+  font-size: 20px;
 }
 
 .intro p{
@@ -57,7 +57,7 @@ form{
   margin: 3px;
   text-transform: uppercase;
   font-weight: bolder;
-  font-size: 3px;
+  font-size: 10px;
 }
 
 input{
