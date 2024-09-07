@@ -16,7 +16,7 @@ body{
 
 .intro h1{
   margin: 3px;
-  font-size: 35px;
+  font-size: 15px;
   text-transform: uppercase;
   font-weight: bolder;
 }
@@ -24,11 +24,11 @@ body{
 .intro h2{
   margin-top: 20px;
   margin-bottom: 3px;
-  font-size: 27px;
+  font-size: 17px;
 }
 
 .intro p{
-  font-size: 12px;
+  font-size: 8px;
   font-weight: bolder;
   color: gray;
 }
