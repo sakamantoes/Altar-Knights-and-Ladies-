@@ -14,7 +14,7 @@ body{
   line-height: 5px;
 }
 
- h1{
+.intro h1{
   margin: 3px;
   text-transform: uppercase;
   font-weight: bolder;
@@ -48,6 +48,12 @@ form{
   flex-direction: column;
   margin-top: 10px;
   line-height: 20px;
+}
+
+form h1{
+  margin: 3px;
+  text-transform: uppercase;
+  font-weight: bolder;
 }
 
 input{
